@@ -1,0 +1,39 @@
+.container {
+	padding-bottom: 30rpx;
+	color: #333;
+}
+
+.tui-safearea-bottom {
+	width: 100%;
+	height: env(safe-area-inset-bottom);
+}
+
+.tui-item-active {
+	color: #e41f19 !important;
+}
+
+.tui-product-box {
+	margin-top: 20rpx;
+	padding: 0 20rpx;
+	box-sizing: border-box;
+}
+
+.tui-pb-20 {
+	padding-bottom: 20rpx;
+}
+
+.tui-bg-white {
+	background: #fff;
+}
+
+.tui-group-name {
+	font-size: 32rpx;
+	font-weight: bold;
+	text-align: center;
+	padding: 24rpx 0;
+}
+
+.seckill-section {
+	padding: 8upx 30upx 24upx;
+	background: #fff;
+}

@@ -1,0 +1,77 @@
+.tui-cmt-cell {
+	width: 100%;
+	padding: 26rpx 30rpx;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.tui-cmt-cell::after {
+	content: '';
+	position: absolute;
+	border-bottom: 1rpx solid #eaeef1;
+	-webkit-transform: scaleY(0.5);
+	transform: scaleY(0.5);
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+.tui-header-box {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 28rpx;
+}
+
+.tui-userinfo-box {
+	display: flex;
+	align-items: center;
+}
+
+.tui-avatar {
+	width: 64rpx;
+	height: 64rpx;
+	border-radius: 32rpx;
+	display: block;
+	flex-shrink: 0;
+}
+
+.tui-nickname-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-left: 12rpx;
+	padding-top: 4rpx;
+	height: 60rpx;
+}
+
+.tui-cmt-nickname {
+	color: #5677fc;
+	line-height: 28rpx;
+}
+
+.tui-cmt-time {
+	font-size: 24rpx;
+	line-height: 24rpx;
+	color: #9a9a9a;
+	transform: scale(0.8);
+	transform-origin: 0 100%;
+}
+
+.tui-fabulous {
+	color: #9a9a9a;
+}
+
+.tui-fabulous text {
+	padding-right: 4rpx;
+	font-size: 24rpx;
+}
+
+.tui-cmt-content {
+	font-size: 32rpx;
+	color: #333;
+	text-align: justify;
+	padding-top: 16rpx;
+	word-break: break-all;
+	word-wrap: break-word;
+}

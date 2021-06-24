@@ -1,0 +1,134 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "中医",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"bounce": "vertical"
+				}
+			}
+		},
+		{
+			"path": "pages/category/category",
+			"style": {
+				"navigationBarTitleText": "中药分类",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"bounce": "vertical"
+				}
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"bounce": "vertical"
+				}
+			}
+		},
+		{
+			"path": "pages/login/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": false,
+					"bounce": "vertical"
+				}
+			}
+		},
+		{
+			"path": "pages/login/forgetPwd/forgetPwd",
+			"style": {
+				"navigationBarTitleText": "忘记密码",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/login/reg/reg",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/detail/newsDetail",
+			"style": {
+				"navigationBarTitleText": "中药新资讯",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"bounce": "vertical"
+				}
+			}
+		},
+		{
+			"path": "pages/commentReply/commentReply",
+			"style": {
+				"navigationBarTitleText": "回复详情",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"bounce": "vertical"
+				}
+			}
+		},
+		{
+			"path": "pages/detail/medicalDetail",
+			"style": {
+				"navigationBarTitleText": "中药简介",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"bounce": "vertical"
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"mp-alipay": {
+			/* 支付宝小程序特有相关 */
+			"transparentTitle": "always",
+			"allowsBounceVertical": "NO"
+		},
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"navigationBarTitleText": "ColorUi for UniApp",
+		"navigationBarTextStyle": "black",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color": "#999",
+		"selectedColor": "#5677fc",
+		"backgroundColor": "#fafafa",
+		"borderStyle": "black",
+		"position": "bottom",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "/static/taber/home.png",
+				"selectedIconPath": "/static/taber/home1.png"
+			},
+			{
+				"pagePath": "pages/category/category",
+				"text": "中药分类",
+				"iconPath": "/static/taber/category.png",
+				"selectedIconPath": "/static/taber/category1.png"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "我的",
+				"iconPath": "/static/taber/my.png",
+				"selectedIconPath": "/static/taber/my1.png"
+			}
+		]
+	}
+
+}
