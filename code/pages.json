@@ -91,6 +91,16 @@
 					"bounce": "vertical"
 				}
 			}
+		},
+		{
+			"path": "pages/comment/comment",
+			"style": {
+				"navigationBarTitleText": "回复",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"bounce": "vertical"
+				}
+			}
 		}
 	],
 	"globalStyle": {

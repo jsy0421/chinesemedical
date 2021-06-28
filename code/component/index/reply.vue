@@ -2,12 +2,21 @@
 	<view class="tui-operation">
 		<!--处理部分手机底部兼容-->
 		<view class="tui-operation-inner">
-			<view class="tui-btn-comment">回复楼主...</view>
+			<view class="tui-btn-comment" @click="reply()">回复楼主...</view>
 		</view>
 	</view>
 </template>
 
 <script>
+	export default {
+		methods:{
+			reply:function(){
+				uni.navigateTo({
+					url: '../../pages/comment/comment'
+				});
+			}
+		}
+	}
 </script>
 
 <style>

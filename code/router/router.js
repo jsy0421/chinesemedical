@@ -208,5 +208,12 @@ module.exports = () => {
 		getData(sql, res);
 	})
 
+	route.get('/addComment', (req, res) => {
+		let content = req.query.content;
+		let img = req.query.img;
+		const sql2 = `INSERT INTO replylist(replyId,avatar,nickname,fabulous,content,time) VALUES('1','${img}','123','0','${content}',NOW())`;
+		Reg(sql2, res);
+	});
+	
 	return route;
 }
